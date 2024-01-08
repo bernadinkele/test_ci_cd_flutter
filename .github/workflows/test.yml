@@ -27,6 +27,6 @@ jobs:
           username: Kelebernadin00@gmail.com
           password: tiia nmxw sloy pedw
           from: Kelebernadin00@gmail.com
-          to: officialbernadin@gmail.com
+          to: officialbernadin@gmail.com,ayawaetsiam2004@gmail.com
           subject: "completed successfully!"
-          body: "The APK for the ${{ env.BRANCH }} branch has been built and is  attached ."
+          body: "All test has past "
