@@ -18,7 +18,7 @@ jobs:
         run: flutter build apk
       - name: Test
         run: flutter test
-      - name: Send email with APK attachment
+      - name: Send email to team members
         uses: dawidd6/action-send-mail@v3
         with:
           server_port: 465
@@ -27,6 +27,6 @@ jobs:
           username: Kelebernadin00@gmail.com
           password: tiia nmxw sloy pedw
           from: Kelebernadin00@gmail.com
-          to: officialbernadin@gmail.com,ayawaetsiam2004@gmail.com
+          to: officialbernadin@gmail.com,ayawaetsiam2004@gmail.com, batazi.kpaka@gmail.com , anlovibertin9@gmail.com
           subject: "completed successfully!"
           body: "All test has past "
