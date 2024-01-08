@@ -18,3 +18,15 @@ jobs:
         run: flutter build apk
       - name: Test
         run: flutter test
+      - name: Send email with APK attachment
+          uses: dawidd6/action-send-mail@v3
+          with:
+            server_port: 465
+            secure: true
+            server_address: smtp.gmail.com
+            username: Kelebernadin00@gmail.com
+            password: tiia nmxw sloy pedw
+            from: Kelebernadin00@gmail.com
+            to: officialbernadin@gmail.com
+            subject: "completed successfully!"
+            body: "The APK for the ${{ env.BRANCH }} branch has been built and is  attached ."
